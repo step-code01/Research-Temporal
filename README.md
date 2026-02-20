@@ -9,7 +9,7 @@ I'm sort out to understand and do a exhaustive study on everything's out there o
 This research is being part of a greater project that uses it. 
 
 Courtesy of: 
-Research Engineer: Er. Shaurya Gupta, B.E. Sophomore, Computer Science & Engineering Deptt. 
-Guidance under: Dr. Jatin Bedi, Indian Institute of Technology Roorkee, Associate Professor, TIET.
+ - Research Engineer: Er. Shaurya Gupta, B.E. Sophomore, Computer Science & Engineering Deptt. <br>
+ - Guidance under: Dr. Jatin Bedi, Indian Institute of Technology Roorkee, Associate Professor, TIET.
 
 If you find this research useful, do let us know!
