@@ -1,0 +1,56 @@
+================================================================================
+TEMPORAL PROBING POC - SUMMARY REPORT
+================================================================================
+
+DATASET:
+  Total videos: 600
+  Classes: 6
+  Class distribution: {'horizontal_rl': np.int64(100), 'vertical_up': np.int64(100), 'depth_toward': np.int64(100), 'vertical_down': np.int64(100), 'depth_away': np.int64(100), 'horizontal_lr': np.int64(100)}
+
+MODEL:
+  Name: MCG-NJU/videomae-base-finetuned-kinetics
+  Layers analyzed: [0, 3, 6, 9, 11]
+
+WHERE: MULTI-LAYER PROBING RESULTS
+--------------------------------------------------------------------------------
+  LINEAR Probe:
+    Best layer: 9 (accuracy: 0.800)
+    All layers: [{'layer': 0, 'accuracy': 0.21666666666666667}, {'layer': 3, 'accuracy': 0.55}, {'layer': 6, 'accuracy': 0.75}, {'layer': 9, 'accuracy': 0.8}, {'layer': 11, 'accuracy': 0.6083333333333333}]
+  MLP Probe:
+    Best layer: 6 (accuracy: 0.783)
+    All layers: [{'layer': 0, 'accuracy': 0.21666666666666667}, {'layer': 3, 'accuracy': 0.5916666666666667}, {'layer': 6, 'accuracy': 0.7833333333333333}, {'layer': 9, 'accuracy': 0.7333333333333333}, {'layer': 11, 'accuracy': 0.5583333333333333}]
+
+WHAT: INTERVENTION ANALYSIS RESULTS
+--------------------------------------------------------------------------------
+
+  LINEAR Probe:
+    Reversed:
+      Average accuracy drop: 0.007
+      Max drop: 0.033 at layer 6
+    Shuffled:
+      Average accuracy drop: 0.190
+      Max drop: 0.300 at layer 9
+
+  MLP Probe:
+    Reversed:
+      Average accuracy drop: 0.020
+      Max drop: 0.067 at layer 3
+    Shuffled:
+      Average accuracy drop: 0.175
+      Max drop: 0.367 at layer 6
+
+================================================================================
+KEY FINDINGS:
+================================================================================
+1. Temporal information is most strongly encoded in layer 9
+   (linear probe accuracy: 0.800)
+
+2. Model MAY use shortcuts (shuffle hurts more than reverse)
+   Average reverse drop: 0.013
+   Average shuffle drop: 0.183
+
+3. Linear probe performs comparably to non-linear
+   MLP best: 0.783, Linear best: 0.800
+   This suggests features are already linearly separable
+
+================================================================================
