@@ -22,7 +22,6 @@ Journal updates: <br>
 Issue was not normalizing before string matching in json, so it wasn't reading any videos.
 
 Courtesy of: 
- - Research Engineer: Er. Shaurya Gupta, B.E. Sophomore, Computer Science & Engineering Deptt. <br>
- - Guidance under: Dr. Jatin Bedi, Indian Institute of Technology Roorkee, Associate Professor, TIET.
+ - Shaurya Gupta, B.E. Sophomore, Computer Science & Engineering Deptt. <br>
 
 If you find this research useful, do let us know!
