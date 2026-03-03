@@ -1,0 +1,5427 @@
+{
+  "classes": {
+    "horizontal_lr": "Pushing something from left to right",
+    "horizontal_rl": "Pushing something from right to left",
+    "vertical_up": "Moving something up",
+    "vertical_down": "Moving something down",
+    "depth_toward": "Moving something towards the camera",
+    "depth_away": "Moving something away from the camera"
+  },
+  "videos_per_class": 100,
+  "random_seed": 42,
+  "total_videos": 600,
+  "selected_videos": {
+    "horizontal_rl": [
+      {
+        "id": "187588",
+        "label": "pushing a candle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "a candle"
+        ]
+      },
+      {
+        "id": "40531",
+        "label": "pushing book from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "56501",
+        "label": "pushing window from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "window"
+        ]
+      },
+      {
+        "id": "3194",
+        "label": "pushing bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "174226",
+        "label": "pushing mixie jar from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "mixie jar"
+        ]
+      },
+      {
+        "id": "97362",
+        "label": "pushing a pawn from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "a pawn"
+        ]
+      },
+      {
+        "id": "20786",
+        "label": "pushing tissues from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "tissues"
+        ]
+      },
+      {
+        "id": "34701",
+        "label": "pushing a jar from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "a jar"
+        ]
+      },
+      {
+        "id": "144470",
+        "label": "pushing a bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "a bottle"
+        ]
+      },
+      {
+        "id": "213930",
+        "label": "pushing plastic cup from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "plastic cup"
+        ]
+      },
+      {
+        "id": "56884",
+        "label": "pushing hair comb from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "hair comb"
+        ]
+      },
+      {
+        "id": "184765",
+        "label": "pushing bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "59156",
+        "label": "pushing salt shaker from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "salt shaker"
+        ]
+      },
+      {
+        "id": "136853",
+        "label": "pushing smartphone from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "smartphone"
+        ]
+      },
+      {
+        "id": "149",
+        "label": "pushing ladies wallet from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "ladies wallet"
+        ]
+      },
+      {
+        "id": "81959",
+        "label": "pushing cigarette from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "cigarette"
+        ]
+      },
+      {
+        "id": "48159",
+        "label": "pushing purple toy shovel from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "purple toy shovel"
+        ]
+      },
+      {
+        "id": "212959",
+        "label": "pushing glass bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "glass bottle"
+        ]
+      },
+      {
+        "id": "78300",
+        "label": "pushing domino piece from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "domino piece"
+        ]
+      },
+      {
+        "id": "175009",
+        "label": "pushing powder from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "powder"
+        ]
+      },
+      {
+        "id": "5569",
+        "label": "pushing color pencils from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "173153",
+        "label": "pushing pen from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "22843",
+        "label": "pushing business card from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "business card"
+        ]
+      },
+      {
+        "id": "130515",
+        "label": "pushing pen from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "17046",
+        "label": "pushing spoon from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "spoon"
+        ]
+      },
+      {
+        "id": "195007",
+        "label": "pushing a watch from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "a watch"
+        ]
+      },
+      {
+        "id": "58315",
+        "label": "pushing plug from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "plug"
+        ]
+      },
+      {
+        "id": "191913",
+        "label": "pushing the tv remote from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "the tv remote"
+        ]
+      },
+      {
+        "id": "1971",
+        "label": "pushing box pushing right to left from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "box pushing right to left"
+        ]
+      },
+      {
+        "id": "101779",
+        "label": "pushing candy from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "candy"
+        ]
+      },
+      {
+        "id": "20070",
+        "label": "pushing bottle of sugar from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "bottle of sugar"
+        ]
+      },
+      {
+        "id": "152152",
+        "label": "pushing color pencils from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "58747",
+        "label": "pushing some eraser from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "some eraser"
+        ]
+      },
+      {
+        "id": "124001",
+        "label": "pushing stationery knife from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "stationery knife"
+        ]
+      },
+      {
+        "id": "143265",
+        "label": "pushing green water bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "green water bottle"
+        ]
+      },
+      {
+        "id": "14982",
+        "label": "pushing block from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "block"
+        ]
+      },
+      {
+        "id": "50016",
+        "label": "pushing exo dishwash liquid from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "exo dishwash liquid"
+        ]
+      },
+      {
+        "id": "127489",
+        "label": "pushing bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "155278",
+        "label": "pushing color pencils from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "170674",
+        "label": "pushing sock from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "sock"
+        ]
+      },
+      {
+        "id": "170255",
+        "label": "pushing bath soap from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "bath soap"
+        ]
+      },
+      {
+        "id": "108703",
+        "label": "pushing flashdisk from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "flashdisk"
+        ]
+      },
+      {
+        "id": "118986",
+        "label": "pushing jenga piece from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "jenga piece"
+        ]
+      },
+      {
+        "id": "105210",
+        "label": "pushing tube from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "tube"
+        ]
+      },
+      {
+        "id": "7489",
+        "label": "pushing mouse from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "mouse"
+        ]
+      },
+      {
+        "id": "208356",
+        "label": "pushing soda can from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "soda can"
+        ]
+      },
+      {
+        "id": "25421",
+        "label": "pushing phone from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "phone"
+        ]
+      },
+      {
+        "id": "199792",
+        "label": "pushing floppy disk from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "floppy disk"
+        ]
+      },
+      {
+        "id": "27232",
+        "label": "pushing headset from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "headset"
+        ]
+      },
+      {
+        "id": "210389",
+        "label": "pushing book from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "129225",
+        "label": "pushing color pencils from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "100303",
+        "label": "pushing remote control from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "remote control"
+        ]
+      },
+      {
+        "id": "167732",
+        "label": "pushing bowl from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "bowl"
+        ]
+      },
+      {
+        "id": "185125",
+        "label": "pushing color pencils from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "49009",
+        "label": "pushing a helmet from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "a helmet"
+        ]
+      },
+      {
+        "id": "70180",
+        "label": "pushing comb from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "comb"
+        ]
+      },
+      {
+        "id": "14559",
+        "label": "pushing comb from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "comb"
+        ]
+      },
+      {
+        "id": "82190",
+        "label": "pushing comb from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "comb"
+        ]
+      },
+      {
+        "id": "101865",
+        "label": "pushing pack from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "pack"
+        ]
+      },
+      {
+        "id": "194186",
+        "label": "pushing handphone from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "handphone"
+        ]
+      },
+      {
+        "id": "66146",
+        "label": "pushing plastic glass from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "plastic glass"
+        ]
+      },
+      {
+        "id": "120942",
+        "label": "pushing dreidel from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "dreidel"
+        ]
+      },
+      {
+        "id": "188022",
+        "label": "pushing granola bar from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "granola bar"
+        ]
+      },
+      {
+        "id": "71735",
+        "label": "pushing skin powder cans from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "skin powder cans"
+        ]
+      },
+      {
+        "id": "196538",
+        "label": "pushing matchbox from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "matchbox"
+        ]
+      },
+      {
+        "id": "106095",
+        "label": "pushing powder from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "powder"
+        ]
+      },
+      {
+        "id": "212723",
+        "label": "pushing user manual book from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "user manual book"
+        ]
+      },
+      {
+        "id": "98207",
+        "label": "pushing spoon from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "spoon"
+        ]
+      },
+      {
+        "id": "119513",
+        "label": "pushing plastic material from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "plastic material"
+        ]
+      },
+      {
+        "id": "145721",
+        "label": "pushing bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "93590",
+        "label": "pushing color pencils from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "40345",
+        "label": "pushing wallet from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "wallet"
+        ]
+      },
+      {
+        "id": "65612",
+        "label": "pushing leather case from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "leather case"
+        ]
+      },
+      {
+        "id": "150646",
+        "label": "pushing cleaning wipes from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "cleaning wipes"
+        ]
+      },
+      {
+        "id": "105207",
+        "label": "pushing pen from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "36318",
+        "label": "pushing black marker from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "black marker"
+        ]
+      },
+      {
+        "id": "88832",
+        "label": "pushing book from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "108160",
+        "label": "pushing paper from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "paper"
+        ]
+      },
+      {
+        "id": "165792",
+        "label": "pushing spoon from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "spoon"
+        ]
+      },
+      {
+        "id": "70821",
+        "label": "pushing bear can from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "bear can"
+        ]
+      },
+      {
+        "id": "123711",
+        "label": "pushing brown bracelet from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "brown bracelet"
+        ]
+      },
+      {
+        "id": "8453",
+        "label": "pushing nail varnish bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "nail varnish bottle"
+        ]
+      },
+      {
+        "id": "99769",
+        "label": "pushing router from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "router"
+        ]
+      },
+      {
+        "id": "154661",
+        "label": "pushing safety glasses from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "safety glasses"
+        ]
+      },
+      {
+        "id": "121352",
+        "label": "pushing color pencils from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "76258",
+        "label": "pushing elephant sculpture from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "elephant sculpture"
+        ]
+      },
+      {
+        "id": "38063",
+        "label": "pushing nivea cream from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "nivea cream"
+        ]
+      },
+      {
+        "id": "192968",
+        "label": "pushing mp3 player from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "mp3 player"
+        ]
+      },
+      {
+        "id": "177020",
+        "label": "pushing tandem chairs from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "tandem chairs"
+        ]
+      },
+      {
+        "id": "76153",
+        "label": "pushing dreidel from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "dreidel"
+        ]
+      },
+      {
+        "id": "126236",
+        "label": "pushing a light switch from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "a light switch"
+        ]
+      },
+      {
+        "id": "197322",
+        "label": "pushing pendriver from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "pendriver"
+        ]
+      },
+      {
+        "id": "220031",
+        "label": "pushing helmet from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "helmet"
+        ]
+      },
+      {
+        "id": "200704",
+        "label": "pushing white pencil from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "white pencil"
+        ]
+      },
+      {
+        "id": "23720",
+        "label": "pushing phone from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "phone"
+        ]
+      },
+      {
+        "id": "5518",
+        "label": "pushing pebble from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "pebble"
+        ]
+      },
+      {
+        "id": "96284",
+        "label": "pushing flashdisk from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "flashdisk"
+        ]
+      },
+      {
+        "id": "150752",
+        "label": "pushing marker from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "val",
+        "placeholders": [
+          "marker"
+        ]
+      },
+      {
+        "id": "120698",
+        "label": "pushing wallet from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "wallet"
+        ]
+      },
+      {
+        "id": "6705",
+        "label": "pushing bottle from right to left",
+        "template": "Pushing [something] from right to left",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      }
+    ],
+    "vertical_up": [
+      {
+        "id": "179219",
+        "label": "moving a jar up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a jar"
+        ]
+      },
+      {
+        "id": "166678",
+        "label": "moving power bank up",
+        "template": "Moving [something] up",
+        "split": "val",
+        "placeholders": [
+          "power bank"
+        ]
+      },
+      {
+        "id": "185879",
+        "label": "moving something up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "something"
+        ]
+      },
+      {
+        "id": "176810",
+        "label": "moving bottle up",
+        "template": "Moving [something] up",
+        "split": "val",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "152072",
+        "label": "moving super glue up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "super glue"
+        ]
+      },
+      {
+        "id": "203200",
+        "label": "moving a flower up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a flower"
+        ]
+      },
+      {
+        "id": "169989",
+        "label": "moving remote control up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "remote control"
+        ]
+      },
+      {
+        "id": "137671",
+        "label": "moving a mobile phone up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a mobile phone"
+        ]
+      },
+      {
+        "id": "97752",
+        "label": "moving a pen up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a pen"
+        ]
+      },
+      {
+        "id": "173561",
+        "label": "moving toothpick up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "toothpick"
+        ]
+      },
+      {
+        "id": "137897",
+        "label": "moving surf excel liquid bottle up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "surf excel liquid bottle"
+        ]
+      },
+      {
+        "id": "23924",
+        "label": "moving compact powder up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "compact powder"
+        ]
+      },
+      {
+        "id": "126745",
+        "label": "moving a tweezer up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a tweezer"
+        ]
+      },
+      {
+        "id": "220001",
+        "label": "moving a spatula up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a spatula"
+        ]
+      },
+      {
+        "id": "3583",
+        "label": "moving leaves up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "leaves"
+        ]
+      },
+      {
+        "id": "152368",
+        "label": "moving jug up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "jug"
+        ]
+      },
+      {
+        "id": "25177",
+        "label": "moving cup up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "213096",
+        "label": "moving deodorant up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "deodorant"
+        ]
+      },
+      {
+        "id": "197789",
+        "label": "moving balm up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "balm"
+        ]
+      },
+      {
+        "id": "45537",
+        "label": "moving color pencils up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "148927",
+        "label": "moving folded paper up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "folded paper"
+        ]
+      },
+      {
+        "id": "209329",
+        "label": "moving plastic case up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "plastic case"
+        ]
+      },
+      {
+        "id": "219106",
+        "label": "moving dreidel up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "dreidel"
+        ]
+      },
+      {
+        "id": "152828",
+        "label": "moving shoe up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "shoe"
+        ]
+      },
+      {
+        "id": "35378",
+        "label": "moving a thermous up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a thermous"
+        ]
+      },
+      {
+        "id": "93267",
+        "label": "moving letter up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "letter"
+        ]
+      },
+      {
+        "id": "157398",
+        "label": "moving egg up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "egg"
+        ]
+      },
+      {
+        "id": "54781",
+        "label": "moving a kitchen glove up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a kitchen glove"
+        ]
+      },
+      {
+        "id": "153321",
+        "label": "moving body lotion up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "body lotion"
+        ]
+      },
+      {
+        "id": "92601",
+        "label": "moving plastic bottle up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "plastic bottle"
+        ]
+      },
+      {
+        "id": "64494",
+        "label": "moving brusher up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "brusher"
+        ]
+      },
+      {
+        "id": "92039",
+        "label": "moving shampoo up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "shampoo"
+        ]
+      },
+      {
+        "id": "209362",
+        "label": "moving pen up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "192864",
+        "label": "moving box up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "16244",
+        "label": "moving stationery knife up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "stationery knife"
+        ]
+      },
+      {
+        "id": "84698",
+        "label": "moving wallet up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "wallet"
+        ]
+      },
+      {
+        "id": "86580",
+        "label": "moving a stick up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a stick"
+        ]
+      },
+      {
+        "id": "165171",
+        "label": "moving platter up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "platter"
+        ]
+      },
+      {
+        "id": "87694",
+        "label": "moving color pencils up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "160835",
+        "label": "moving chalk up",
+        "template": "Moving [something] up",
+        "split": "val",
+        "placeholders": [
+          "chalk"
+        ]
+      },
+      {
+        "id": "129625",
+        "label": "moving jar cap up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "jar cap"
+        ]
+      },
+      {
+        "id": "128678",
+        "label": "moving router up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "router"
+        ]
+      },
+      {
+        "id": "94555",
+        "label": "moving bowl up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "bowl"
+        ]
+      },
+      {
+        "id": "141622",
+        "label": "moving something up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "something"
+        ]
+      },
+      {
+        "id": "179043",
+        "label": "moving glass up",
+        "template": "Moving [something] up",
+        "split": "val",
+        "placeholders": [
+          "glass"
+        ]
+      },
+      {
+        "id": "70695",
+        "label": "moving shoe up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "shoe"
+        ]
+      },
+      {
+        "id": "150157",
+        "label": "moving hammer up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "hammer"
+        ]
+      },
+      {
+        "id": "61107",
+        "label": "moving bic up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "bic"
+        ]
+      },
+      {
+        "id": "73370",
+        "label": "moving stone up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "stone"
+        ]
+      },
+      {
+        "id": "109170",
+        "label": "moving coin up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "coin"
+        ]
+      },
+      {
+        "id": "187087",
+        "label": "moving color pencils up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "111867",
+        "label": "moving coin up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "coin"
+        ]
+      },
+      {
+        "id": "115449",
+        "label": "moving hairclip up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "hairclip"
+        ]
+      },
+      {
+        "id": "112099",
+        "label": "moving something up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "something"
+        ]
+      },
+      {
+        "id": "189815",
+        "label": "moving wristlet handbag up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "wristlet handbag"
+        ]
+      },
+      {
+        "id": "100162",
+        "label": "moving product catalog book up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "product catalog book"
+        ]
+      },
+      {
+        "id": "116582",
+        "label": "moving something up",
+        "template": "Moving [something] up",
+        "split": "val",
+        "placeholders": [
+          "something"
+        ]
+      },
+      {
+        "id": "4101",
+        "label": "moving a card up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a card"
+        ]
+      },
+      {
+        "id": "108993",
+        "label": "moving dvd up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "dvd"
+        ]
+      },
+      {
+        "id": "176516",
+        "label": "moving telephone up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "telephone"
+        ]
+      },
+      {
+        "id": "111282",
+        "label": "moving shoe up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "shoe"
+        ]
+      },
+      {
+        "id": "98585",
+        "label": "moving pen up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "24197",
+        "label": "moving pen up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "67301",
+        "label": "moving breastpin up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "breastpin"
+        ]
+      },
+      {
+        "id": "167014",
+        "label": "moving salt shaker up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "salt shaker"
+        ]
+      },
+      {
+        "id": "142602",
+        "label": "moving canvas up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "canvas"
+        ]
+      },
+      {
+        "id": "210025",
+        "label": "moving stone up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "stone"
+        ]
+      },
+      {
+        "id": "69295",
+        "label": "moving comb up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "comb"
+        ]
+      },
+      {
+        "id": "15414",
+        "label": "moving pen drive up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "pen drive"
+        ]
+      },
+      {
+        "id": "90773",
+        "label": "moving stone up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "stone"
+        ]
+      },
+      {
+        "id": "109107",
+        "label": "moving paperclip up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "paperclip"
+        ]
+      },
+      {
+        "id": "57887",
+        "label": "moving banana up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "banana"
+        ]
+      },
+      {
+        "id": "29755",
+        "label": "moving brush up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "brush"
+        ]
+      },
+      {
+        "id": "51909",
+        "label": "moving color pencils up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "164505",
+        "label": "moving toothbrush pack up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "toothbrush pack"
+        ]
+      },
+      {
+        "id": "193120",
+        "label": "moving color pencils up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "156223",
+        "label": "moving mouse up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "mouse"
+        ]
+      },
+      {
+        "id": "215323",
+        "label": "moving a cotton wool pad up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a cotton wool pad"
+        ]
+      },
+      {
+        "id": "18698",
+        "label": "moving book up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "14760",
+        "label": "moving a pencil up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a pencil"
+        ]
+      },
+      {
+        "id": "33322",
+        "label": "moving cfl lamp up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "cfl lamp"
+        ]
+      },
+      {
+        "id": "22965",
+        "label": "moving bottle up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "84607",
+        "label": "moving an apple up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "an apple"
+        ]
+      },
+      {
+        "id": "43644",
+        "label": "moving wallet up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "wallet"
+        ]
+      },
+      {
+        "id": "70828",
+        "label": "moving compass up",
+        "template": "Moving [something] up",
+        "split": "val",
+        "placeholders": [
+          "compass"
+        ]
+      },
+      {
+        "id": "164522",
+        "label": "moving a onion up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a onion"
+        ]
+      },
+      {
+        "id": "86286",
+        "label": "moving rock up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "rock"
+        ]
+      },
+      {
+        "id": "201116",
+        "label": "moving spoon up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "spoon"
+        ]
+      },
+      {
+        "id": "96200",
+        "label": "moving cup up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "202482",
+        "label": "moving apple up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "apple"
+        ]
+      },
+      {
+        "id": "218218",
+        "label": "moving an usb up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "an usb"
+        ]
+      },
+      {
+        "id": "218610",
+        "label": "moving wine up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "wine"
+        ]
+      },
+      {
+        "id": "78013",
+        "label": "moving ring up",
+        "template": "Moving [something] up",
+        "split": "val",
+        "placeholders": [
+          "ring"
+        ]
+      },
+      {
+        "id": "73521",
+        "label": "moving wood spoon up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "wood spoon"
+        ]
+      },
+      {
+        "id": "22487",
+        "label": "moving toy car up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "toy car"
+        ]
+      },
+      {
+        "id": "69185",
+        "label": "moving lit flashlight up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "lit flashlight"
+        ]
+      },
+      {
+        "id": "175008",
+        "label": "moving eraser up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "eraser"
+        ]
+      },
+      {
+        "id": "220328",
+        "label": "moving a fridge magnet up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "a fridge magnet"
+        ]
+      },
+      {
+        "id": "171055",
+        "label": "moving scissors up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "scissors"
+        ]
+      },
+      {
+        "id": "84824",
+        "label": "moving gents wallet up",
+        "template": "Moving [something] up",
+        "split": "train",
+        "placeholders": [
+          "gents wallet"
+        ]
+      }
+    ],
+    "depth_toward": [
+      {
+        "id": "193585",
+        "label": "moving syrap towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "syrap"
+        ]
+      },
+      {
+        "id": "197580",
+        "label": "moving watch towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "val",
+        "placeholders": [
+          "watch"
+        ]
+      },
+      {
+        "id": "119170",
+        "label": "moving comb towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "comb"
+        ]
+      },
+      {
+        "id": "196151",
+        "label": "moving bacon towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "bacon"
+        ]
+      },
+      {
+        "id": "164495",
+        "label": "moving a coin towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a coin"
+        ]
+      },
+      {
+        "id": "168011",
+        "label": "moving athe tissue towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "athe tissue"
+        ]
+      },
+      {
+        "id": "186416",
+        "label": "moving a marble towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a marble"
+        ]
+      },
+      {
+        "id": "61444",
+        "label": "moving bottle towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "201910",
+        "label": "moving toothbrush towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "val",
+        "placeholders": [
+          "toothbrush"
+        ]
+      },
+      {
+        "id": "121661",
+        "label": "moving cup towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "169260",
+        "label": "moving purse towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "purse"
+        ]
+      },
+      {
+        "id": "136611",
+        "label": "moving phone towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "phone"
+        ]
+      },
+      {
+        "id": "77247",
+        "label": "moving post-it towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "post-it"
+        ]
+      },
+      {
+        "id": "120658",
+        "label": "moving beans towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "beans"
+        ]
+      },
+      {
+        "id": "107398",
+        "label": "moving a can towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a can"
+        ]
+      },
+      {
+        "id": "200239",
+        "label": "moving scale towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "scale"
+        ]
+      },
+      {
+        "id": "57238",
+        "label": "moving the pills towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "the pills"
+        ]
+      },
+      {
+        "id": "165826",
+        "label": "moving horse toy towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "horse toy"
+        ]
+      },
+      {
+        "id": "121986",
+        "label": "moving coffee mug towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "coffee mug"
+        ]
+      },
+      {
+        "id": "8865",
+        "label": "moving lid towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "lid"
+        ]
+      },
+      {
+        "id": "145695",
+        "label": "moving bracelet towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "bracelet"
+        ]
+      },
+      {
+        "id": "26034",
+        "label": "moving beans towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "beans"
+        ]
+      },
+      {
+        "id": "151312",
+        "label": "moving purse towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "purse"
+        ]
+      },
+      {
+        "id": "179504",
+        "label": "moving water pump valve towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "water pump valve"
+        ]
+      },
+      {
+        "id": "106149",
+        "label": "moving remote towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "remote"
+        ]
+      },
+      {
+        "id": "5503",
+        "label": "moving a toothbrush towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a toothbrush"
+        ]
+      },
+      {
+        "id": "129848",
+        "label": "moving bottle towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "191021",
+        "label": "moving phone towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "val",
+        "placeholders": [
+          "phone"
+        ]
+      },
+      {
+        "id": "112812",
+        "label": "moving glove towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "glove"
+        ]
+      },
+      {
+        "id": "154910",
+        "label": "moving hanger towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "hanger"
+        ]
+      },
+      {
+        "id": "15439",
+        "label": "moving a mobile phone towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a mobile phone"
+        ]
+      },
+      {
+        "id": "64272",
+        "label": "moving coin towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "coin"
+        ]
+      },
+      {
+        "id": "60002",
+        "label": "moving syrup bottle towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "syrup bottle"
+        ]
+      },
+      {
+        "id": "184724",
+        "label": "moving bag towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "bag"
+        ]
+      },
+      {
+        "id": "151531",
+        "label": "moving petroleum jelly towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "petroleum jelly"
+        ]
+      },
+      {
+        "id": "140308",
+        "label": "moving eye glass towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "eye glass"
+        ]
+      },
+      {
+        "id": "38839",
+        "label": "moving card towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "card"
+        ]
+      },
+      {
+        "id": "215568",
+        "label": "moving stool towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "stool"
+        ]
+      },
+      {
+        "id": "24370",
+        "label": "moving chappal towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "chappal"
+        ]
+      },
+      {
+        "id": "196007",
+        "label": "moving a vase towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a vase"
+        ]
+      },
+      {
+        "id": "132682",
+        "label": "moving stone towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "stone"
+        ]
+      },
+      {
+        "id": "32426",
+        "label": "moving pull tab towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "pull tab"
+        ]
+      },
+      {
+        "id": "121486",
+        "label": "moving spectacle case towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "spectacle case"
+        ]
+      },
+      {
+        "id": "38248",
+        "label": "moving mobile phone towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "mobile phone"
+        ]
+      },
+      {
+        "id": "76208",
+        "label": "moving a cell phone battery towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a cell phone battery"
+        ]
+      },
+      {
+        "id": "71049",
+        "label": "moving tape measure towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "tape measure"
+        ]
+      },
+      {
+        "id": "74518",
+        "label": "moving watch towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "watch"
+        ]
+      },
+      {
+        "id": "63043",
+        "label": "moving trophy towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "trophy"
+        ]
+      },
+      {
+        "id": "18517",
+        "label": "moving mud vessel towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "mud vessel"
+        ]
+      },
+      {
+        "id": "98905",
+        "label": "moving a paper clip towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a paper clip"
+        ]
+      },
+      {
+        "id": "116851",
+        "label": "moving comb towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "comb"
+        ]
+      },
+      {
+        "id": "131081",
+        "label": "moving tissue towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "tissue"
+        ]
+      },
+      {
+        "id": "38968",
+        "label": "moving remote control towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "remote control"
+        ]
+      },
+      {
+        "id": "185435",
+        "label": "moving pear towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "pear"
+        ]
+      },
+      {
+        "id": "29152",
+        "label": "moving coin towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "val",
+        "placeholders": [
+          "coin"
+        ]
+      },
+      {
+        "id": "128197",
+        "label": "moving spectacles towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "spectacles"
+        ]
+      },
+      {
+        "id": "134660",
+        "label": "moving bottle towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "109399",
+        "label": "moving cup towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "190773",
+        "label": "moving a hammer towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a hammer"
+        ]
+      },
+      {
+        "id": "72661",
+        "label": "moving old spice deodorant towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "old spice deodorant"
+        ]
+      },
+      {
+        "id": "216432",
+        "label": "moving packet of green tea towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "packet of green tea"
+        ]
+      },
+      {
+        "id": "72151",
+        "label": "moving shoe towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "shoe"
+        ]
+      },
+      {
+        "id": "195050",
+        "label": "moving gun towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "gun"
+        ]
+      },
+      {
+        "id": "60197",
+        "label": "moving a candy towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a candy"
+        ]
+      },
+      {
+        "id": "189811",
+        "label": "moving clothe towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "clothe"
+        ]
+      },
+      {
+        "id": "176110",
+        "label": "moving cup towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "val",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "101584",
+        "label": "moving a bobble head towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a bobble head"
+        ]
+      },
+      {
+        "id": "24448",
+        "label": "moving a pen drive towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a pen drive"
+        ]
+      },
+      {
+        "id": "92184",
+        "label": "moving toy car towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "toy car"
+        ]
+      },
+      {
+        "id": "47124",
+        "label": "moving a sliding blade kinfe towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a sliding blade kinfe"
+        ]
+      },
+      {
+        "id": "122979",
+        "label": "moving coconut shell towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "val",
+        "placeholders": [
+          "coconut shell"
+        ]
+      },
+      {
+        "id": "12851",
+        "label": "moving tongue cleaner towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "tongue cleaner"
+        ]
+      },
+      {
+        "id": "184905",
+        "label": "moving something towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "val",
+        "placeholders": [
+          "something"
+        ]
+      },
+      {
+        "id": "210201",
+        "label": "moving chocolate towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "chocolate"
+        ]
+      },
+      {
+        "id": "134303",
+        "label": "moving a knife towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a knife"
+        ]
+      },
+      {
+        "id": "215375",
+        "label": "moving a toy towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a toy"
+        ]
+      },
+      {
+        "id": "180863",
+        "label": "moving thermocol towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "thermocol"
+        ]
+      },
+      {
+        "id": "164471",
+        "label": "moving toothbrush towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "toothbrush"
+        ]
+      },
+      {
+        "id": "125670",
+        "label": "moving newspaper towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "newspaper"
+        ]
+      },
+      {
+        "id": "215524",
+        "label": "moving a mobil towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a mobil"
+        ]
+      },
+      {
+        "id": "72038",
+        "label": "moving ginger towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "ginger"
+        ]
+      },
+      {
+        "id": "215114",
+        "label": "moving toffee container towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "val",
+        "placeholders": [
+          "toffee container"
+        ]
+      },
+      {
+        "id": "118800",
+        "label": "moving cup towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "21686",
+        "label": "moving hose pipe towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "hose pipe"
+        ]
+      },
+      {
+        "id": "150555",
+        "label": "moving a wall tile towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a wall tile"
+        ]
+      },
+      {
+        "id": "72856",
+        "label": "moving a polenta bag towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a polenta bag"
+        ]
+      },
+      {
+        "id": "119191",
+        "label": "moving ciggerate bud towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "ciggerate bud"
+        ]
+      },
+      {
+        "id": "79870",
+        "label": "moving bottle towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "105380",
+        "label": "moving plastic pot towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "plastic pot"
+        ]
+      },
+      {
+        "id": "46193",
+        "label": "moving bottle towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "val",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "17648",
+        "label": "moving a clay towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a clay"
+        ]
+      },
+      {
+        "id": "53783",
+        "label": "moving a nailcutter towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a nailcutter"
+        ]
+      },
+      {
+        "id": "23938",
+        "label": "moving a sketch pen towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a sketch pen"
+        ]
+      },
+      {
+        "id": "179846",
+        "label": "moving an ornament towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "an ornament"
+        ]
+      },
+      {
+        "id": "207499",
+        "label": "moving a usb stick towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a usb stick"
+        ]
+      },
+      {
+        "id": "58424",
+        "label": "moving a cap towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a cap"
+        ]
+      },
+      {
+        "id": "180396",
+        "label": "moving a domino towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a domino"
+        ]
+      },
+      {
+        "id": "126107",
+        "label": "moving banana towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "banana"
+        ]
+      },
+      {
+        "id": "88232",
+        "label": "moving toothpaste towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "toothpaste"
+        ]
+      },
+      {
+        "id": "92381",
+        "label": "moving a pack of cookies towards the camera",
+        "template": "Moving [something] towards the camera",
+        "split": "train",
+        "placeholders": [
+          "a pack of cookies"
+        ]
+      }
+    ],
+    "vertical_down": [
+      {
+        "id": "214882",
+        "label": "moving phone down",
+        "template": "Moving [something] down",
+        "split": "val",
+        "placeholders": [
+          "phone"
+        ]
+      },
+      {
+        "id": "114846",
+        "label": "moving chestnut down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "chestnut"
+        ]
+      },
+      {
+        "id": "91779",
+        "label": "moving umbrella down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "umbrella"
+        ]
+      },
+      {
+        "id": "121076",
+        "label": "moving glass down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "glass"
+        ]
+      },
+      {
+        "id": "141832",
+        "label": "moving book down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "122098",
+        "label": "moving an earring down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "an earring"
+        ]
+      },
+      {
+        "id": "215623",
+        "label": "moving flashdisk down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "flashdisk"
+        ]
+      },
+      {
+        "id": "81290",
+        "label": "moving a stamper down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a stamper"
+        ]
+      },
+      {
+        "id": "133744",
+        "label": "moving mouse down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "mouse"
+        ]
+      },
+      {
+        "id": "95197",
+        "label": "moving fish pot down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "fish pot"
+        ]
+      },
+      {
+        "id": "7914",
+        "label": "moving color pencils down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "33573",
+        "label": "moving candy down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "candy"
+        ]
+      },
+      {
+        "id": "53612",
+        "label": "moving juice down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "juice"
+        ]
+      },
+      {
+        "id": "213512",
+        "label": "moving yoyo down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "yoyo"
+        ]
+      },
+      {
+        "id": "113223",
+        "label": "moving cup down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "6411",
+        "label": "moving a clipper down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a clipper"
+        ]
+      },
+      {
+        "id": "33028",
+        "label": "moving a stone down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a stone"
+        ]
+      },
+      {
+        "id": "216302",
+        "label": "moving remote down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "remote"
+        ]
+      },
+      {
+        "id": "157255",
+        "label": "moving ball down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "ball"
+        ]
+      },
+      {
+        "id": "181155",
+        "label": "moving color pencils down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "189752",
+        "label": "moving garlic down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "garlic"
+        ]
+      },
+      {
+        "id": "140266",
+        "label": "moving tv remote down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "tv remote"
+        ]
+      },
+      {
+        "id": "122946",
+        "label": "moving a candle down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a candle"
+        ]
+      },
+      {
+        "id": "57392",
+        "label": "moving box down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "83449",
+        "label": "moving scissors down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "scissors"
+        ]
+      },
+      {
+        "id": "150911",
+        "label": "moving bottle down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "92042",
+        "label": "moving box down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "30937",
+        "label": "moving key down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "key"
+        ]
+      },
+      {
+        "id": "197415",
+        "label": "moving padlock down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "padlock"
+        ]
+      },
+      {
+        "id": "2747",
+        "label": "moving nail polish down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "nail polish"
+        ]
+      },
+      {
+        "id": "165474",
+        "label": "moving an envelope down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "an envelope"
+        ]
+      },
+      {
+        "id": "24485",
+        "label": "moving seagate hardisk down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "seagate hardisk"
+        ]
+      },
+      {
+        "id": "155164",
+        "label": "moving a spoon down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a spoon"
+        ]
+      },
+      {
+        "id": "75768",
+        "label": "moving something down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "something"
+        ]
+      },
+      {
+        "id": "209257",
+        "label": "moving glass down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "glass"
+        ]
+      },
+      {
+        "id": "146943",
+        "label": "moving cap down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "cap"
+        ]
+      },
+      {
+        "id": "36423",
+        "label": "moving a small box down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a small box"
+        ]
+      },
+      {
+        "id": "108983",
+        "label": "moving mini cd down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "mini cd"
+        ]
+      },
+      {
+        "id": "115105",
+        "label": "moving pen down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "88575",
+        "label": "moving box down",
+        "template": "Moving [something] down",
+        "split": "val",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "7805",
+        "label": "moving staple down",
+        "template": "Moving [something] down",
+        "split": "val",
+        "placeholders": [
+          "staple"
+        ]
+      },
+      {
+        "id": "77520",
+        "label": "moving book down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "175115",
+        "label": "moving color pencils down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "106485",
+        "label": "moving book down",
+        "template": "Moving [something] down",
+        "split": "val",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "14584",
+        "label": "moving a dvd casette down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a dvd casette"
+        ]
+      },
+      {
+        "id": "6071",
+        "label": "moving the match box down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "the match box"
+        ]
+      },
+      {
+        "id": "194168",
+        "label": "moving pencil down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "pencil"
+        ]
+      },
+      {
+        "id": "70222",
+        "label": "moving a scissor down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a scissor"
+        ]
+      },
+      {
+        "id": "197724",
+        "label": "moving pain brush down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "pain brush"
+        ]
+      },
+      {
+        "id": "65303",
+        "label": "moving mouse down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "mouse"
+        ]
+      },
+      {
+        "id": "85176",
+        "label": "moving candle down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "candle"
+        ]
+      },
+      {
+        "id": "109618",
+        "label": "moving box down",
+        "template": "Moving [something] down",
+        "split": "val",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "139722",
+        "label": "moving power card wire down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "power card wire"
+        ]
+      },
+      {
+        "id": "212637",
+        "label": "moving notebook down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "notebook"
+        ]
+      },
+      {
+        "id": "153735",
+        "label": "moving plastic down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "plastic"
+        ]
+      },
+      {
+        "id": "136278",
+        "label": "moving earphone down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "earphone"
+        ]
+      },
+      {
+        "id": "73912",
+        "label": "moving cd down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "cd"
+        ]
+      },
+      {
+        "id": "39714",
+        "label": "moving toothpaste down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "toothpaste"
+        ]
+      },
+      {
+        "id": "62894",
+        "label": "moving shoe down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "shoe"
+        ]
+      },
+      {
+        "id": "194178",
+        "label": "moving plastic case down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "plastic case"
+        ]
+      },
+      {
+        "id": "6782",
+        "label": "moving stone down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "stone"
+        ]
+      },
+      {
+        "id": "98330",
+        "label": "moving book down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "144128",
+        "label": "moving a tablet down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a tablet"
+        ]
+      },
+      {
+        "id": "99407",
+        "label": "moving color pencils down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "28739",
+        "label": "moving cap down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "cap"
+        ]
+      },
+      {
+        "id": "14411",
+        "label": "moving tawa down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "tawa"
+        ]
+      },
+      {
+        "id": "24357",
+        "label": "moving color pencils down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "194828",
+        "label": "moving cutter down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "cutter"
+        ]
+      },
+      {
+        "id": "34547",
+        "label": "moving cleansing mousse down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "cleansing mousse"
+        ]
+      },
+      {
+        "id": "57188",
+        "label": "moving glass down",
+        "template": "Moving [something] down",
+        "split": "val",
+        "placeholders": [
+          "glass"
+        ]
+      },
+      {
+        "id": "210713",
+        "label": "moving charger down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "charger"
+        ]
+      },
+      {
+        "id": "14913",
+        "label": "moving stapler down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "stapler"
+        ]
+      },
+      {
+        "id": "118947",
+        "label": "moving cotton down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "cotton"
+        ]
+      },
+      {
+        "id": "44285",
+        "label": "moving eectrical fuse down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "eectrical fuse"
+        ]
+      },
+      {
+        "id": "46819",
+        "label": "moving pen down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "44903",
+        "label": "moving something down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "something"
+        ]
+      },
+      {
+        "id": "43020",
+        "label": "moving a toy down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a toy"
+        ]
+      },
+      {
+        "id": "135004",
+        "label": "moving color pencils down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "146907",
+        "label": "moving thermometer down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "thermometer"
+        ]
+      },
+      {
+        "id": "134151",
+        "label": "moving apple down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "apple"
+        ]
+      },
+      {
+        "id": "160566",
+        "label": "moving cup down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "19606",
+        "label": "moving a stapler down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a stapler"
+        ]
+      },
+      {
+        "id": "84041",
+        "label": "moving covered tooth brush down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "covered tooth brush"
+        ]
+      },
+      {
+        "id": "137137",
+        "label": "moving pendrive down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "pendrive"
+        ]
+      },
+      {
+        "id": "212955",
+        "label": "moving a lighter down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a lighter"
+        ]
+      },
+      {
+        "id": "13375",
+        "label": "moving flasdisk down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "flasdisk"
+        ]
+      },
+      {
+        "id": "179480",
+        "label": "moving pen down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "83669",
+        "label": "moving tea box down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "tea box"
+        ]
+      },
+      {
+        "id": "19088",
+        "label": "moving package down",
+        "template": "Moving [something] down",
+        "split": "val",
+        "placeholders": [
+          "package"
+        ]
+      },
+      {
+        "id": "215878",
+        "label": "moving candle down",
+        "template": "Moving [something] down",
+        "split": "val",
+        "placeholders": [
+          "candle"
+        ]
+      },
+      {
+        "id": "124267",
+        "label": "moving something down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "something"
+        ]
+      },
+      {
+        "id": "153133",
+        "label": "moving a container down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "a container"
+        ]
+      },
+      {
+        "id": "78320",
+        "label": "moving marker down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "marker"
+        ]
+      },
+      {
+        "id": "62101",
+        "label": "moving calculator down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "calculator"
+        ]
+      },
+      {
+        "id": "29145",
+        "label": "moving chili down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "chili"
+        ]
+      },
+      {
+        "id": "125656",
+        "label": "moving string down",
+        "template": "Moving [something] down",
+        "split": "val",
+        "placeholders": [
+          "string"
+        ]
+      },
+      {
+        "id": "109384",
+        "label": "moving color pencils down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "18681",
+        "label": "moving color pencils down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "121768",
+        "label": "moving pen down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "pen"
+        ]
+      },
+      {
+        "id": "166574",
+        "label": "moving brush down",
+        "template": "Moving [something] down",
+        "split": "train",
+        "placeholders": [
+          "brush"
+        ]
+      }
+    ],
+    "depth_away": [
+      {
+        "id": "185486",
+        "label": "moving box away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "93354",
+        "label": "moving a key away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a key"
+        ]
+      },
+      {
+        "id": "66251",
+        "label": "moving hair oil bottle away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "hair oil bottle"
+        ]
+      },
+      {
+        "id": "90510",
+        "label": "moving plastic bag away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "plastic bag"
+        ]
+      },
+      {
+        "id": "218908",
+        "label": "moving mug away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "mug"
+        ]
+      },
+      {
+        "id": "150642",
+        "label": "moving purse away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "purse"
+        ]
+      },
+      {
+        "id": "16193",
+        "label": "moving hose pipe away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "hose pipe"
+        ]
+      },
+      {
+        "id": "62786",
+        "label": "moving shoe away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "shoe"
+        ]
+      },
+      {
+        "id": "87248",
+        "label": "moving a bulb away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a bulb"
+        ]
+      },
+      {
+        "id": "178891",
+        "label": "moving hair band away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "hair band"
+        ]
+      },
+      {
+        "id": "172814",
+        "label": "moving egg away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "egg"
+        ]
+      },
+      {
+        "id": "207783",
+        "label": "moving a hanger away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a hanger"
+        ]
+      },
+      {
+        "id": "2456",
+        "label": "moving flower away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "val",
+        "placeholders": [
+          "flower"
+        ]
+      },
+      {
+        "id": "216048",
+        "label": "moving room freshener away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "room freshener"
+        ]
+      },
+      {
+        "id": "131321",
+        "label": "moving toffee box away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "val",
+        "placeholders": [
+          "toffee box"
+        ]
+      },
+      {
+        "id": "118761",
+        "label": "moving beads away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "beads"
+        ]
+      },
+      {
+        "id": "40393",
+        "label": "moving clay jug away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "clay jug"
+        ]
+      },
+      {
+        "id": "216500",
+        "label": "moving a pencil away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a pencil"
+        ]
+      },
+      {
+        "id": "82784",
+        "label": "moving a plastic bird bath away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a plastic bird bath"
+        ]
+      },
+      {
+        "id": "134060",
+        "label": "moving a radio away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a radio"
+        ]
+      },
+      {
+        "id": "184665",
+        "label": "moving comb away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "comb"
+        ]
+      },
+      {
+        "id": "194322",
+        "label": "moving a bangle away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a bangle"
+        ]
+      },
+      {
+        "id": "137669",
+        "label": "moving mobile phone away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "mobile phone"
+        ]
+      },
+      {
+        "id": "196474",
+        "label": "moving coffee mug away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "coffee mug"
+        ]
+      },
+      {
+        "id": "199170",
+        "label": "moving chain away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "chain"
+        ]
+      },
+      {
+        "id": "18497",
+        "label": "moving scale ruler away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "scale ruler"
+        ]
+      },
+      {
+        "id": "130685",
+        "label": "moving bowl away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "bowl"
+        ]
+      },
+      {
+        "id": "183528",
+        "label": "moving watercolor away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "watercolor"
+        ]
+      },
+      {
+        "id": "116715",
+        "label": "moving soap away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "soap"
+        ]
+      },
+      {
+        "id": "147765",
+        "label": "moving deodorant away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "deodorant"
+        ]
+      },
+      {
+        "id": "215661",
+        "label": "moving a recorder away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a recorder"
+        ]
+      },
+      {
+        "id": "166478",
+        "label": "moving cup away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "87310",
+        "label": "moving scarf away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "scarf"
+        ]
+      },
+      {
+        "id": "195996",
+        "label": "moving lipstick away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "lipstick"
+        ]
+      },
+      {
+        "id": "85209",
+        "label": "moving deodorant away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "deodorant"
+        ]
+      },
+      {
+        "id": "43316",
+        "label": "moving rubix cube away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "val",
+        "placeholders": [
+          "rubix cube"
+        ]
+      },
+      {
+        "id": "136593",
+        "label": "moving a pack of cookies away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a pack of cookies"
+        ]
+      },
+      {
+        "id": "28365",
+        "label": "moving shoe away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "shoe"
+        ]
+      },
+      {
+        "id": "166746",
+        "label": "moving earring away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "earring"
+        ]
+      },
+      {
+        "id": "212588",
+        "label": "moving a cup away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a cup"
+        ]
+      },
+      {
+        "id": "209490",
+        "label": "moving a shear away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a shear"
+        ]
+      },
+      {
+        "id": "210168",
+        "label": "moving a hinge away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a hinge"
+        ]
+      },
+      {
+        "id": "167665",
+        "label": "moving mouse away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "mouse"
+        ]
+      },
+      {
+        "id": "209255",
+        "label": "moving cup away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "48096",
+        "label": "moving a tortilla chip away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a tortilla chip"
+        ]
+      },
+      {
+        "id": "59601",
+        "label": "moving computer moise away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "computer moise"
+        ]
+      },
+      {
+        "id": "79322",
+        "label": "moving comb away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "comb"
+        ]
+      },
+      {
+        "id": "86911",
+        "label": "moving dream catcher away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "dream catcher"
+        ]
+      },
+      {
+        "id": "199879",
+        "label": "moving book away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "143629",
+        "label": "moving a basket away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a basket"
+        ]
+      },
+      {
+        "id": "171106",
+        "label": "moving tv remote away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "tv remote"
+        ]
+      },
+      {
+        "id": "97814",
+        "label": "moving jar mug away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "jar mug"
+        ]
+      },
+      {
+        "id": "160983",
+        "label": "moving bangle away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "bangle"
+        ]
+      },
+      {
+        "id": "47249",
+        "label": "moving food container away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "val",
+        "placeholders": [
+          "food container"
+        ]
+      },
+      {
+        "id": "115155",
+        "label": "moving mat away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "mat"
+        ]
+      },
+      {
+        "id": "116755",
+        "label": "moving tomato away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "tomato"
+        ]
+      },
+      {
+        "id": "177956",
+        "label": "moving tiger balm away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "tiger balm"
+        ]
+      },
+      {
+        "id": "125589",
+        "label": "moving glass piece away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "glass piece"
+        ]
+      },
+      {
+        "id": "182248",
+        "label": "moving bottle away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "154786",
+        "label": "moving a toy away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a toy"
+        ]
+      },
+      {
+        "id": "205156",
+        "label": "moving a cream tube away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "val",
+        "placeholders": [
+          "a cream tube"
+        ]
+      },
+      {
+        "id": "192212",
+        "label": "moving chair away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "chair"
+        ]
+      },
+      {
+        "id": "91919",
+        "label": "moving a glue tape away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a glue tape"
+        ]
+      },
+      {
+        "id": "165632",
+        "label": "moving sculpture away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "sculpture"
+        ]
+      },
+      {
+        "id": "48399",
+        "label": "moving a coin away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a coin"
+        ]
+      },
+      {
+        "id": "125191",
+        "label": "moving blade away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "blade"
+        ]
+      },
+      {
+        "id": "35477",
+        "label": "moving cup away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "167956",
+        "label": "moving pot away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "pot"
+        ]
+      },
+      {
+        "id": "53762",
+        "label": "moving plant away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "plant"
+        ]
+      },
+      {
+        "id": "108722",
+        "label": "moving pen cap away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "pen cap"
+        ]
+      },
+      {
+        "id": "22998",
+        "label": "moving noddle pouch away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "noddle pouch"
+        ]
+      },
+      {
+        "id": "94560",
+        "label": "moving induction cooker away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "induction cooker"
+        ]
+      },
+      {
+        "id": "16166",
+        "label": "moving a tealight away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a tealight"
+        ]
+      },
+      {
+        "id": "32715",
+        "label": "moving sunglasses away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "sunglasses"
+        ]
+      },
+      {
+        "id": "189428",
+        "label": "moving a spoon away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a spoon"
+        ]
+      },
+      {
+        "id": "209332",
+        "label": "moving a toy away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a toy"
+        ]
+      },
+      {
+        "id": "219175",
+        "label": "moving a scissors away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a scissors"
+        ]
+      },
+      {
+        "id": "169613",
+        "label": "moving mobile phone charger away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "mobile phone charger"
+        ]
+      },
+      {
+        "id": "42850",
+        "label": "moving sandal away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "val",
+        "placeholders": [
+          "sandal"
+        ]
+      },
+      {
+        "id": "124965",
+        "label": "moving phone away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "phone"
+        ]
+      },
+      {
+        "id": "168281",
+        "label": "moving toy away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "toy"
+        ]
+      },
+      {
+        "id": "106109",
+        "label": "moving mud vessel away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "mud vessel"
+        ]
+      },
+      {
+        "id": "127600",
+        "label": "moving ball away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "ball"
+        ]
+      },
+      {
+        "id": "88500",
+        "label": "moving a tape away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a tape"
+        ]
+      },
+      {
+        "id": "112820",
+        "label": "moving a door away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a door"
+        ]
+      },
+      {
+        "id": "40101",
+        "label": "moving plate away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "val",
+        "placeholders": [
+          "plate"
+        ]
+      },
+      {
+        "id": "30921",
+        "label": "moving sketch pen away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "sketch pen"
+        ]
+      },
+      {
+        "id": "19306",
+        "label": "moving peacock feather away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "peacock feather"
+        ]
+      },
+      {
+        "id": "25900",
+        "label": "moving a brush away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a brush"
+        ]
+      },
+      {
+        "id": "98533",
+        "label": "moving a scissors away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a scissors"
+        ]
+      },
+      {
+        "id": "93558",
+        "label": "moving guitar away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "guitar"
+        ]
+      },
+      {
+        "id": "125800",
+        "label": "moving steel glass away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "steel glass"
+        ]
+      },
+      {
+        "id": "165669",
+        "label": "moving a match box away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a match box"
+        ]
+      },
+      {
+        "id": "170209",
+        "label": "moving box away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "127400",
+        "label": "moving pencil away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "pencil"
+        ]
+      },
+      {
+        "id": "157380",
+        "label": "moving cup away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "cup"
+        ]
+      },
+      {
+        "id": "78159",
+        "label": "moving a makeup brush away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a makeup brush"
+        ]
+      },
+      {
+        "id": "65276",
+        "label": "moving box away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "val",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "102375",
+        "label": "moving plastic case away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "plastic case"
+        ]
+      },
+      {
+        "id": "173770",
+        "label": "moving a trophy away from the camera",
+        "template": "Moving [something] away from the camera",
+        "split": "train",
+        "placeholders": [
+          "a trophy"
+        ]
+      }
+    ],
+    "horizontal_lr": [
+      {
+        "id": "33836",
+        "label": "pushing bottle from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "179107",
+        "label": "pushing jar from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "jar"
+        ]
+      },
+      {
+        "id": "156778",
+        "label": "pushing a letter k from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "a letter k"
+        ]
+      },
+      {
+        "id": "122012",
+        "label": "pushing ink bottle from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "val",
+        "placeholders": [
+          "ink bottle"
+        ]
+      },
+      {
+        "id": "28325",
+        "label": "pushing marker from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "marker"
+        ]
+      },
+      {
+        "id": "106601",
+        "label": "pushing safety glasses from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "safety glasses"
+        ]
+      },
+      {
+        "id": "160005",
+        "label": "pushing toothpaste from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "toothpaste"
+        ]
+      },
+      {
+        "id": "78377",
+        "label": "pushing supplement bottle from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "val",
+        "placeholders": [
+          "supplement bottle"
+        ]
+      },
+      {
+        "id": "37892",
+        "label": "pushing box from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "97843",
+        "label": "pushing footwear from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "footwear"
+        ]
+      },
+      {
+        "id": "24977",
+        "label": "pushing ponds face powder from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "ponds face powder"
+        ]
+      },
+      {
+        "id": "217657",
+        "label": "pushing comb from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "comb"
+        ]
+      },
+      {
+        "id": "58387",
+        "label": "pushing clip from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "clip"
+        ]
+      },
+      {
+        "id": "184084",
+        "label": "pushing led box from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "led box"
+        ]
+      },
+      {
+        "id": "112232",
+        "label": "pushing lock from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "lock"
+        ]
+      },
+      {
+        "id": "108609",
+        "label": "pushing coffee from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "val",
+        "placeholders": [
+          "coffee"
+        ]
+      },
+      {
+        "id": "253",
+        "label": "pushing bottle from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "136345",
+        "label": "pushing egg holder from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "egg holder"
+        ]
+      },
+      {
+        "id": "158227",
+        "label": "pushing key from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "key"
+        ]
+      },
+      {
+        "id": "54945",
+        "label": "pushing scissors from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "val",
+        "placeholders": [
+          "scissors"
+        ]
+      },
+      {
+        "id": "194037",
+        "label": "pushing keys from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "keys"
+        ]
+      },
+      {
+        "id": "168834",
+        "label": "pushing a mirror from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "a mirror"
+        ]
+      },
+      {
+        "id": "118236",
+        "label": "pushing candle from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "candle"
+        ]
+      },
+      {
+        "id": "103599",
+        "label": "pushing glass from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "glass"
+        ]
+      },
+      {
+        "id": "121437",
+        "label": "pushing wristwatch from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "wristwatch"
+        ]
+      },
+      {
+        "id": "171284",
+        "label": "pushing yorgut from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "yorgut"
+        ]
+      },
+      {
+        "id": "102611",
+        "label": "pushing small pain bottle from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "small pain bottle"
+        ]
+      },
+      {
+        "id": "169947",
+        "label": "pushing pencil from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "pencil"
+        ]
+      },
+      {
+        "id": "44649",
+        "label": "pushing envelope from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "envelope"
+        ]
+      },
+      {
+        "id": "26239",
+        "label": "pushing mini cd from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "mini cd"
+        ]
+      },
+      {
+        "id": "75477",
+        "label": "pushing an ornament from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "an ornament"
+        ]
+      },
+      {
+        "id": "58173",
+        "label": "pushing milk carton from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "milk carton"
+        ]
+      },
+      {
+        "id": "49892",
+        "label": "pushing dreidel from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "dreidel"
+        ]
+      },
+      {
+        "id": "37431",
+        "label": "pushing brush from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "brush"
+        ]
+      },
+      {
+        "id": "197135",
+        "label": "pushing mouse from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "mouse"
+        ]
+      },
+      {
+        "id": "136304",
+        "label": "pushing powder can from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "powder can"
+        ]
+      },
+      {
+        "id": "109424",
+        "label": "pushing color pencils from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "186485",
+        "label": "pushing a pink medication bottle from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "a pink medication bottle"
+        ]
+      },
+      {
+        "id": "170591",
+        "label": "pushing calculator from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "calculator"
+        ]
+      },
+      {
+        "id": "181607",
+        "label": "pushing rubik cube from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "rubik cube"
+        ]
+      },
+      {
+        "id": "45942",
+        "label": "pushing marker from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "marker"
+        ]
+      },
+      {
+        "id": "15660",
+        "label": "pushing scissor from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "scissor"
+        ]
+      },
+      {
+        "id": "110402",
+        "label": "pushing a mug from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "val",
+        "placeholders": [
+          "a mug"
+        ]
+      },
+      {
+        "id": "113370",
+        "label": "pushing pomade from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "pomade"
+        ]
+      },
+      {
+        "id": "48081",
+        "label": "pushing plastic card from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "plastic card"
+        ]
+      },
+      {
+        "id": "101271",
+        "label": "pushing flashdisk from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "flashdisk"
+        ]
+      },
+      {
+        "id": "122896",
+        "label": "pushing bottle from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "25386",
+        "label": "pushing color pencils from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "126642",
+        "label": "pushing portable speaker from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "portable speaker"
+        ]
+      },
+      {
+        "id": "56801",
+        "label": "pushing box from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "89463",
+        "label": "pushing speaker from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "speaker"
+        ]
+      },
+      {
+        "id": "205935",
+        "label": "pushing a wallet from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "a wallet"
+        ]
+      },
+      {
+        "id": "64978",
+        "label": "pushing cap toothbrush from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "cap toothbrush"
+        ]
+      },
+      {
+        "id": "105936",
+        "label": "pushing plate from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "plate"
+        ]
+      },
+      {
+        "id": "37681",
+        "label": "pushing adapter from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "adapter"
+        ]
+      },
+      {
+        "id": "5715",
+        "label": "pushing bottle from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "bottle"
+        ]
+      },
+      {
+        "id": "140458",
+        "label": "pushing puff from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "puff"
+        ]
+      },
+      {
+        "id": "88367",
+        "label": "pushing tipp ex from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "tipp ex"
+        ]
+      },
+      {
+        "id": "47070",
+        "label": "pushing pencil from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "pencil"
+        ]
+      },
+      {
+        "id": "179708",
+        "label": "pushing cap from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "cap"
+        ]
+      },
+      {
+        "id": "12322",
+        "label": "pushing a shell from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "a shell"
+        ]
+      },
+      {
+        "id": "197026",
+        "label": "pushing onion from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "onion"
+        ]
+      },
+      {
+        "id": "116741",
+        "label": "pushing scotch tape from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "val",
+        "placeholders": [
+          "scotch tape"
+        ]
+      },
+      {
+        "id": "41756",
+        "label": "pushing tissue from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "tissue"
+        ]
+      },
+      {
+        "id": "98488",
+        "label": "pushing deodorant from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "deodorant"
+        ]
+      },
+      {
+        "id": "173461",
+        "label": "pushing screw from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "screw"
+        ]
+      },
+      {
+        "id": "45449",
+        "label": "pushing book from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "186431",
+        "label": "pushing samsung phone from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "samsung phone"
+        ]
+      },
+      {
+        "id": "201109",
+        "label": "pushing tissue from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "tissue"
+        ]
+      },
+      {
+        "id": "79144",
+        "label": "pushing toothpick from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "toothpick"
+        ]
+      },
+      {
+        "id": "15487",
+        "label": "pushing iron stickers from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "iron stickers"
+        ]
+      },
+      {
+        "id": "203556",
+        "label": "pushing peeler from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "peeler"
+        ]
+      },
+      {
+        "id": "133506",
+        "label": "pushing mobile from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "mobile"
+        ]
+      },
+      {
+        "id": "57570",
+        "label": "pushing shoehorn from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "shoehorn"
+        ]
+      },
+      {
+        "id": "113695",
+        "label": "pushing color pencils from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "157648",
+        "label": "pushing key from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "key"
+        ]
+      },
+      {
+        "id": "144355",
+        "label": "pushing paper from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "paper"
+        ]
+      },
+      {
+        "id": "66780",
+        "label": "pushing book from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "book"
+        ]
+      },
+      {
+        "id": "19505",
+        "label": "pushing cap from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "cap"
+        ]
+      },
+      {
+        "id": "182720",
+        "label": "pushing red hard plastic triangular object from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "red hard plastic triangular object"
+        ]
+      },
+      {
+        "id": "188693",
+        "label": "pushing cap from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "val",
+        "placeholders": [
+          "cap"
+        ]
+      },
+      {
+        "id": "85889",
+        "label": "pushing towel from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "val",
+        "placeholders": [
+          "towel"
+        ]
+      },
+      {
+        "id": "22317",
+        "label": "pushing usb drive from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "usb drive"
+        ]
+      },
+      {
+        "id": "64280",
+        "label": "pushing shell from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "shell"
+        ]
+      },
+      {
+        "id": "52520",
+        "label": "pushing ring from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "ring"
+        ]
+      },
+      {
+        "id": "60946",
+        "label": "pushing pen cap from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "pen cap"
+        ]
+      },
+      {
+        "id": "110249",
+        "label": "pushing glasses from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "glasses"
+        ]
+      },
+      {
+        "id": "22715",
+        "label": "pushing paper from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "paper"
+        ]
+      },
+      {
+        "id": "117228",
+        "label": "pushing small box from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "small box"
+        ]
+      },
+      {
+        "id": "150884",
+        "label": "pushing box from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "box"
+        ]
+      },
+      {
+        "id": "137847",
+        "label": "pushing thimble from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "thimble"
+        ]
+      },
+      {
+        "id": "141269",
+        "label": "pushing foil casserole dish from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "foil casserole dish"
+        ]
+      },
+      {
+        "id": "185948",
+        "label": "pushing color pencils from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "color pencils"
+        ]
+      },
+      {
+        "id": "100428",
+        "label": "pushing skin powder cans from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "skin powder cans"
+        ]
+      },
+      {
+        "id": "126015",
+        "label": "pushing glass from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "glass"
+        ]
+      },
+      {
+        "id": "193004",
+        "label": "pushing cereal box from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "cereal box"
+        ]
+      },
+      {
+        "id": "105549",
+        "label": "pushing scissors from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "scissors"
+        ]
+      },
+      {
+        "id": "213886",
+        "label": "pushing a pen from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "a pen"
+        ]
+      },
+      {
+        "id": "117999",
+        "label": "pushing tool from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "tool"
+        ]
+      },
+      {
+        "id": "114979",
+        "label": "pushing body spray from left to right",
+        "template": "Pushing [something] from left to right",
+        "split": "train",
+        "placeholders": [
+          "body spray"
+        ]
+      }
+    ]
+  }
+}
