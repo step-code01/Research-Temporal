@@ -14,7 +14,18 @@ Goals to achieve:
 3. Vary models and understand whether different architectures perceive time differently, and whether cross (inter) connection between these bag of frames which too expensive computationally by traditional attention methods being O(n^2) could be solved by linear attention ones (Space State Models) and what are the drawbacks/tradeoffs for that, and rectifying that.
 4. Some sort of internal clock mechanism like human body does.
 
+Conclusions:
+1. My preliminary study concluded that "MCG-NJU/videomae-base-finetuned-kinetics" doesn't actually see frames but does guesswork since playing the the video in reverse doesn't hurt the accuracy. 
+Suprisingly, shuffling the frames hurts more than reversing the frames.
+2. More detailed results in the results folder below.
+<img width="2382" height="921" alt="intervention_analysis" src="https://github.com/user-attachments/assets/ef13b83c-ba47-45fd-abcf-faa3692ea736" />
+<img width="2382" height="921" alt="accuracy_drops" src="https://github.com/user-attachments/assets/ee0afca3-a302-423a-bd2c-c413ecd255cf" />
+<img width="2326" height="921" alt="intervention_heatmap" src="https://github.com/user-attachments/assets/d2dc5e91-9eee-448a-bca4-cce76fb80abc" />
+
+
 Journal updates: <br>
+3-3-26: Final Outputs & Results of Study obtained (Phase-1: Proving the hypothesized issue exists): (Detailed results in results folder of this repo) 
+
 20-2-26: fixing OOM errors while embedding extraction on "MCG-NJU/videomae-base-finetuned-kinetics"
 <img width="2736" height="682" alt="Screenshot 2026-02-20 154101" src="https://github.com/user-attachments/assets/c433fca8-f450-438a-ae06-46d417897b4f" />
 
